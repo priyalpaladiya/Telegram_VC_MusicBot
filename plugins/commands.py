@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2021 SUBIN
+#Copyright (c) 2021 Ghangale Sangram
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -71,12 +71,12 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+        InlineKeyboardButton('⚙️ Update Group', url='https://t.me/maharashtrafriendcircle'),
+        InlineKeyboardButton('🤖 Other Bots', url='https://t.me/TheProgrammerCaT_Bot'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/sangramghangale'),
+        InlineKeyboardButton('🧩 Source', url='https://github.com/GhangaleSangram'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -93,12 +93,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+            InlineKeyboardButton('⚙️ Update Group', url='https://t.me/maharashtrafriendcircle'),
+            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/TheProgrammerCaT_Bot'),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/sangramghangale'),
+            InlineKeyboardButton('🧩 Source', url='https://github.com/GhangaleSangram'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
