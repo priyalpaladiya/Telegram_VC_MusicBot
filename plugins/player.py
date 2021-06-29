@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2021 SUBIN
+#Copyright (c) 2021 Sangram Ghnagale
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -55,7 +55,7 @@ async def yplay(_, message: Message):
         for administrator in grpadmins:
             admins.append(administrator.user.id)
         if message.from_user.id not in admins:
-            await message.reply_sticker("CAADBQADsQIAAtILIVYld1n74e3JuQI")
+            await message.reply_sticker("CAACAgUAAxkBAAMvYNscC6kXZtS9_zjsxHb4p-SeuPIAAqQCAAIRRRFUMP1iTyvagXIgBA")
             await message.delete()
             return
     type=""
